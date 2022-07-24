@@ -1,9 +1,7 @@
 import { createContext, useContext, useMemo, useState } from "react";
-
 interface Props {
-    // children: ReactChild
-    children: React.ReactNode;
-  }
+  children: React.ReactNode;
+}
 
 const AppContext = createContext();
 
